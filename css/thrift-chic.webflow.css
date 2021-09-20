@@ -2117,10 +2117,11 @@
 .footer {
   position: absolute;
   left: 0%;
-  top: 900px;
+  top: auto;
   right: 0%;
   bottom: 0%;
-  max-height: 500px;
+  height: 550px;
+  max-height: none;
   padding-top: 60px;
   padding-bottom: 40px;
   -webkit-box-align: start;
@@ -2554,6 +2555,11 @@
   }
 
   .footer {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    height: 530px;
     padding-right: 20px;
     padding-left: 20px;
   }
