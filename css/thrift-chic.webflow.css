@@ -1807,6 +1807,7 @@
   color: #fef5f5;
   font-size: 60px;
   line-height: 40px;
+  cursor: context-menu;
 }
 
 .search-button-2 {
@@ -1863,6 +1864,7 @@
   font-weight: 500;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .button-2 {
@@ -1876,6 +1878,7 @@
   background-color: transparent;
   font-size: 26px;
   text-align: center;
+  cursor: pointer;
 }
 
 .container-2 {
@@ -1898,7 +1901,7 @@
 .grid {
   position: relative;
   left: 41px;
-  top: -260px;
+  top: -290px;
   padding-right: 84px;
   grid-column-gap: 0px;
   grid-row-gap: 3px;
@@ -2086,7 +2089,7 @@
 .image-11 {
   position: relative;
   left: 22px;
-  top: 44px;
+  top: 46px;
   margin-left: 10px;
 }
 
@@ -2120,7 +2123,7 @@
   top: auto;
   right: 0%;
   bottom: 0%;
-  height: 550px;
+  height: 575px;
   max-height: none;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -2246,11 +2249,13 @@
   position: relative;
   left: -16px;
   top: 35px;
+  cursor: pointer;
 }
 
 .image-13 {
   position: relative;
   top: -13px;
+  cursor: pointer;
 }
 
 .text-block-5 {
@@ -2293,6 +2298,7 @@
   position: relative;
   left: 25px;
   top: -57px;
+  cursor: wait;
 }
 
 .paragraph-6 {
@@ -2341,6 +2347,7 @@
 }
 
 .image-17 {
+  display: inline-block;
   width: 100%;
 }
 
@@ -2351,6 +2358,23 @@
 .column-3 {
   left: -16px;
   top: -25px;
+}
+
+.image-18 {
+  cursor: pointer;
+}
+
+.image-19 {
+  cursor: pointer;
+}
+
+.image-20 {
+  cursor: pointer;
+}
+
+.brand {
+  width: 100px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 991px) {
@@ -2411,7 +2435,7 @@
   }
 
   .grid {
-    top: -83px;
+    top: -114px;
     grid-template-areas: "Area Area-2 Area-12 Area-4 Area-10 Area-8"
       "Area-11 Area-6 Area-3 Area-7 Area-5 Area-9";
     -ms-grid-columns: 1.5fr 1.5fr 1fr 1fr 1fr 1fr;
@@ -2503,7 +2527,7 @@
 
   .form-block {
     left: -300px;
-    top: 95px;
+    top: 108px;
     margin-top: 0px;
   }
 
@@ -2551,7 +2575,7 @@
   }
 
   .section-3 {
-    top: 50px;
+    top: 10px;
   }
 
   .footer {
@@ -2559,7 +2583,7 @@
     top: auto;
     right: 0%;
     bottom: 0%;
-    height: 530px;
+    height: 550px;
     padding-right: 20px;
     padding-left: 20px;
   }
